@@ -52,7 +52,7 @@ method = 'Lang'
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 denseFCNN = NN_struc.Net(n_feature, n_hidden_1, n_hidden_2, n_output)
 bayes_nn = BayesNN2(denseFCNN, n_samples=n_samples, noise=noise).to(device)
-Data = np.load('Sample_ODE2_data_.npy')
+Data = np.load('Sample_ODE_data_4.npy')
 x = Data[0,:]
 u = Data[1,:]
 un = Data[2,:]
