@@ -1,5 +1,5 @@
 # BPINN
-Codes for B-PINN using Langevin sampling \\
+Codes for B-PINN using Langevin sampling 
 
 top-level code: mainsolve2.py
 data file: Sample_ODE_data_4.npy (for 2nd order PDE)
